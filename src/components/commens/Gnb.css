@@ -1,0 +1,30 @@
+#Gnb>ul {
+    display: flex;
+}
+
+#Gnb>ul>li {
+    padding: 0 24px;
+    line-height: 80px;
+}
+
+#Gnb>ul>li>a {
+    position: relative;
+    display: block;
+    font-size: 15px;
+    color: #666;
+    font-weight: 500;
+}
+
+#Gnb>ul>li:hover>a {
+    color: #222;
+}
+
+#Gnb>ul>li:hover>a::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid #222;
+}

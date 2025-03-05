@@ -1,0 +1,25 @@
+{
+    "version": "1.0",
+    "users": [
+        {
+            "id": 1,
+            "username": "김희연",
+            "nickname": "멜로디",
+            "userId": "melody",
+            "password": "pass123",
+            "email": "user1@aa.com",
+            "address": "서울시 강남구",
+            "phone": "010-1234-5678"
+        },
+        {
+            "id": 2,
+            "username": "오사랑",
+            "nickname": "오리",
+            "userId": "duck",
+            "password": "pass456",
+            "email": "user2@aa.com",
+            "address": "부산시 부산진구",
+            "phone": "010-9876-5432"
+        }
+    ]
+}

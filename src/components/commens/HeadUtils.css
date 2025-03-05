@@ -1,0 +1,8 @@
+#HeadUtils {
+    display: flex;
+    gap: 16px;
+}
+
+#HeadUtils a {
+    color: #777;
+}
